@@ -1,40 +1,39 @@
-# Blockchain-Enabled Private Threat Intelligence Sharing (BEPTIS) Framework
+# SPM-SeCTIS: Severity Pattern Matching for Secure Computable Threat Information Sharing in Intelligent Additive Manufacturing
 
 ## Overview
 
-Blockchain-Enabled Private Threat Intelligence Sharing (BEPTIS) framework is a tool, that aims to securely share prioritized indicators of compromise (IOCs) related to cyber threats within the Additive Manufacturing (AM) industry without revealing the underlying threat details.
+The paper focuses on addressing the security and privacy challenges associated with Cyber Threat Intelligence (CTI) sharing in Intelligent Additive Manufacturing (IAM) environments. IAM systems, which integrate advanced technologies like AI and IoT, face significant cybersecurity risks. Sharing threat intelligence across organisations is crucial for enhancing cybersecurity, but existing methods often fail to protect sensitive data. The paper proposes a solution called Severity Pattern Matching for a Secure Computable Threat Information Sharing System (SPM-SeCTIS), which preserves privacy while enabling the secure exchange of cyber threat information.
 
 ## Research Problem
 
-Sharing threat intelligence among competing organizations can be challenging due to concerns about privacy and competitiveness. Existing systems may lack adequate security, transparency, or efficient data analysis capabilities. This research addresses this problem by developing a dedicated framework for AM that:
+Existing CTI-sharing systems face several challenges:
 
-- Enables secure and tamper-resistant sharing of prioritized IOCs.
-- Preserves the privacy of the underlying threat information.
-- Facilitates collaborative threat analysis and risk assessment within the AM community.
+- Confidentiality: Ensuring that detailed threat severity and the specifics of the affected systems remain confidential during sharing.
+- Privacy of Subscriber Interests: Protecting the interests of subscribers by preventing adversaries from learning what types of threats they are monitoring.
+- Anonymity of the Publisher: Ensuring that the identity of the organisation reporting the incident remains anonymous to avoid retaliation.
+- 
+These issues make it difficult for organisations in IAM to share critical threat information while safeguarding their sensitive operational data.
 
 ## Motivation
 
 Cyber threats pose a significant risk to the AM industry, with potential consequences like disruptions in production, theft of intellectual property, and reputational damage. Effective information sharing is crucial for combating these threats, but concerns about data privacy can hinder collaboration. The BEPTIS framework aims to overcome this obstacle by providing a secure and confidential platform for AM organizations to share and analyze threat intelligence.
 
-## Proposed BEPTIS Framework
+## Contrbution
+SPM-SeCTIS do following:
 
-The BEPTIS framework offers a unique combination of technologies for secure and private threat intelligence sharing:
+- Enable privacy-preserving threat information sharing by using techniques like Homomorphic Encryption (HE) and Format-Preserving Encryption (FPE).
+- Allow intermediaries to process and forward encrypted threat information without accessing or revealing sensitive details.
+- Use distributed ledger technology (private blockchain) to ensure tamper-proof and secure communication.
+- Facilitate secure threat evaluation and sharing between trusted stakeholders while maintaining privacy.
 
-- **Structured Threat Information eXpression (STIX):** Standardizes threat data format for seamless exchange between systems.
-- **Trusted Automated eXchange of Indicator Information (TAXII):** Facilitates secure communication and authorization for threat data exchange.
-- **Hyperledger Fabric:** Provides a private blockchain network for secure and tamper-proof storage of metadata and hash values related to IOCs.
-- **Homomorphic encryption:** Enables computations on encrypted IOC data without revealing the underlying threat information.
-- **Publish-subscribe subsystem:** Enables efficient and secure messaging for timely threat information dissemination among AM organizations.
 
 ## Key Findings
 
-The report highlights several key findings regarding the BEPTIS framework:
+The report highlights several key findings regarding the SPM-SeCTIS framework:
 
-- **Enhanced Data Integrity:** The blockchain ensures accurate and verifiable records of IOCs, simplifying access control and limiting unauthorized access.
-- **Preserved Privacy:** Homomorphic encryption allows analyses and prioritization of IOCs without revealing sensitive threat details.
-- **Efficient Threat Sharing:** The publish-subscribe system facilitates rapid updates and information dissemination among AM organizations.
-- **Performance Trade-offs:** Integrating Hyperledger Fabric introduces slight delays but improves CPU utilization, requiring careful consideration of resource constraints.
+- SPM-SeCTIS effectively preserves privacy by encrypting threat data during computation, evaluation, and sharing.
+- It allows for the anonymisation of the publisher's identity and ensures that sensitive information like threat severity is not exposed during the threat matching process.
+- Performance analysis shows that the system operates efficiently with minimal encryption/decryption overhead and supports real-time threat intelligence sharing, making it scalable for large IAM environments.
+- The system provides significant improvements over existing CTI sharing mechanisms by addressing privacy concerns without compromising functionality or security.
 
-## Summary
 
-The BEPTIS framework presents a promising approach for secure and private threat intelligence sharing within the AM industry. Its combination of standardized data formats, secure communication protocols, and privacy-preserving encryption techniques offer a valuable tool for enhancing collaboration and resilience against cyber threats. Further research and development can optimize performance and functionalities to fully realize the potential of this framework in strengthening AM cybersecurity.
