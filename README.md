@@ -6,7 +6,7 @@ The paper focuses on addressing the security and privacy challenges associated w
 
 ## Research Problem
 
-Existing CTI-sharing systems face several challenges:
+Cyber Threat Intelligence (CTI) sharing plays a crucial role in strengthening cybersecurity defenses across organizations, particularly in Identity and Access Management (IAM). However, existing CTI-sharing systems face significant challenges that hinder effective and secure information exchange.
 
 - Confidentiality: Ensuring that detailed threat severity and the specifics of the affected systems remain confidential during sharing.
 - Privacy of Subscriber Interests: Protecting the interests of subscribers by preventing adversaries from learning what types of threats they are monitoring.
