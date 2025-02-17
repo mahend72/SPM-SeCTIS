@@ -8,11 +8,10 @@ The paper focuses on addressing the security and privacy challenges associated w
 
 Cyber Threat Intelligence (CTI) sharing plays a crucial role in strengthening cybersecurity defenses across organizations, particularly in Identity and Access Management (IAM). However, existing CTI-sharing systems face significant challenges that hinder effective and secure information exchange.
 
-- Confidentiality: Ensuring that detailed threat severity and the specifics of the affected systems remain confidential during sharing.
-- Privacy of Subscriber Interests: Protecting the interests of subscribers by preventing adversaries from learning what types of threats they are monitoring.
-- Anonymity of the Publisher: Ensuring that the identity of the organisation reporting the incident remains anonymous to avoid retaliation.
-- 
-These issues make it difficult for organisations in IAM to share critical threat information while safeguarding their sensitive operational data.
+ _- Confidentiality_: Ensuring that shared threat intelligence does not expose sensitive details about the severity of threats or the specific systems affected.
+ _- Privacy of Subscriber Interests_: Preventing adversaries from inferring which threats organizations are actively monitoring, which could expose security priorities and vulnerabilities.
+ _- Anonymity of the Publisher_: Protecting the identity of organizations reporting incidents to prevent potential retaliation, reputational damage, or targeted attacks.
+
 
 ## Motivation
 
