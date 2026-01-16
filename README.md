@@ -24,8 +24,8 @@ SPM-SeCTIS does the following:
 
 - Enable privacy-preserving threat information sharing by using techniques like Homomorphic Encryption (HE) and Format-Preserving Encryption (FPE).
 - Allow intermediaries to process and forward encrypted threat information without accessing or revealing sensitive details.
-- Use distributed ledger technology (private blockchain) to ensure tamper-proof and secure communication.
-- Facilitate secure threat evaluation and sharing between trusted stakeholders while maintaining privacy.
+- Use distributed ledger technology (private blockchain) to guarantee tamper-proof and secure communication.
+- Enable secure threat evaluation and sharing between trusted stakeholders while maintaining privacy.
 
 
 ## Key Findings
