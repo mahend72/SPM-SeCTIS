@@ -6,7 +6,7 @@ The paper focuses on addressing the security and privacy challenges associated w
 
 ## Research Problem
 
-Cyber Threat Intelligence (CTI) sharing plays a crucial role in strengthening cybersecurity defenses across organisations, particularly in Identity and Access Management (IAM). However, existing CTI-sharing systems face significant challenges that hinder effective and secure information exchange.
+Cyber Threat Intelligence (CTI) sharing plays a crucial role in strengthening cybersecurity defences across organisations, particularly in Identity and Access Management (IAM). However, existing CTI-sharing systems face significant challenges that hinder effective and secure information exchange.
 
  - _Confidentiality_: Ensuring that shared threat intelligence does not expose sensitive details about the severity of threats or the specific systems affected.
  - _Privacy of Subscriber Interests_: Preventing adversaries from inferring which threats organisations are actively monitoring, which could expose security priorities and vulnerabilities.
@@ -20,7 +20,7 @@ These challenges create a trade-off between collaboration and security, making i
 Cyber threats pose a significant risk to the AM industry, with potential consequences like disruptions in production, theft of intellectual property, and reputational damage. Effective information sharing is crucial for combating these threats, but concerns about data privacy can hinder collaboration. The BEPTIS framework aims to overcome this obstacle by providing a secure and confidential platform for AM organisations to share and analyse threat intelligence.
 
 ## Contrbution
-SPM-SeCTIS do following:
+SPM-SeCTIS does the following:
 
 - Enable privacy-preserving threat information sharing by using techniques like Homomorphic Encryption (HE) and Format-Preserving Encryption (FPE).
 - Allow intermediaries to process and forward encrypted threat information without accessing or revealing sensitive details.
