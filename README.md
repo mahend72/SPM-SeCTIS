@@ -17,7 +17,7 @@ These challenges create a trade-off between collaboration and security, making i
 
 ## Motivation
 
-Cyber threats pose a significant risk to the AM industry, with potential consequences like disruptions in production, theft of intellectual property, and reputational damage. Effective information sharing is crucial for combating these threats, but concerns about data privacy can hinder collaboration. The BEPTIS framework aims to overcome this obstacle by providing a secure and confidential platform for AM organizations to share and analyze threat intelligence.
+Cyber threats pose a significant risk to the AM industry, with potential consequences like disruptions in production, theft of intellectual property, and reputational damage. Effective information sharing is crucial for combating these threats, but concerns about data privacy can hinder collaboration. The BEPTIS framework aims to overcome this obstacle by providing a secure and confidential platform for AM organisations to share and analyse threat intelligence.
 
 ## Contrbution
 SPM-SeCTIS do following:
