@@ -2,7 +2,7 @@
 
 ## Overview
 
-The paper focuses on addressing the security and privacy challenges associated with Cyber Threat Intelligence (CTI) sharing in Intelligent Additive Manufacturing (IAM) environments. IAM systems, which integrate advanced technologies like AI and IoT, face significant cybersecurity risks. Sharing threat intelligence across organisations is crucial for enhancing cybersecurity, but existing methods often fail to protect sensitive data. The paper proposes a solution called Severity Pattern Matching for a Secure Computable Threat Information Sharing System (SPM-SeCTIS), which preserves privacy while enabling the secure exchange of cyber threat information.
+The paper addresses the security and privacy challenges associated with the sharing of Cyber Threat Intelligence (CTI) in Intelligent Additive Manufacturing (IAM) environments. IAM systems, which integrate advanced technologies like AI and IoT, face significant cybersecurity risks. Sharing threat intelligence across organisations is crucial for enhancing cybersecurity, but existing methods often fail to protect sensitive data. The paper proposes a solution called Severity Pattern Matching for a Secure Computable Threat Information Sharing System (SPM-SeCTIS), which preserves privacy while enabling the secure exchange of cyber threat information.
 
 ## Research Problem
 
